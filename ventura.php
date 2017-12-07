@@ -10,12 +10,11 @@
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="assets/css/stylesheet.css">
-	<script src="assets/js/scripts.js"></script>
+	<?php include "assets/css/stylesheet.css" ?>
 </head>
 <body>
 	<div id="content">
-		<?php include "navbar.html" ?>
+		<?php include "assets/navbar.html" ?>
 		<h1>Ventura</h1>
 		<h4>Largest City: <i>Oxnard</i></h4>
 		<hr>
@@ -30,7 +29,8 @@
 			<figure>
 			</figure>
 		</div>
-		<?php include "footer.html" ?>
 	</div>
+    <?php include "assets/footer.html" ?>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

@@ -9,13 +9,13 @@
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="stylesheet.css">
-	<script src="scripts.js"></script>
+	<?php include "assets/css/stylesheet.css" ?>
 </head>
 <body>
 	<div id="content">
-		<?php include "navbar.html" ?>
+		<?php include "assets/navbar.html" ?>
 	</div>
-	<?php include "footer.html" ?>
+	<?php include "assets/footer.html" ?>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

@@ -9,12 +9,11 @@
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="assets/css/stylesheet.css">
-	<script src="assets/js/scripts.js"></script>
+	<?php include "assets/css/stylesheet.css" ?>
 </head>
 <body>
 	<div id="content">
-		<?php include "navbar.html" ?>
+		<?php include "assets/navbar.html" ?>
 		<h1>Los Angeles</h1>
 		<hr>
 		<br/><br/>
@@ -30,7 +29,8 @@
 				<figurecaption>La Brea Tar Pits, source <i><a href="https://en.wikipedia.org/wiki/La_Brea_Tar_Pits">Wikipedia</a></i></figurecaption>
 			</figure>
 		</div>
-		<?php include "footer.html" ?>
 	</div>
+    <?php include "assets/footer.html" ?>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

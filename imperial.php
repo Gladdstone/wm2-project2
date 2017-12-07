@@ -32,5 +32,6 @@
 		</div>
 	</div>
     <?php include "assets/footer.html" ?>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

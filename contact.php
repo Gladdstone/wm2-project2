@@ -9,14 +9,13 @@
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<script type="text/javascript" src="assets/js/scripts.js"></script>
+	<?php include "assets/media.html" ?>
 </head>
 <body>
 	<div id="content">
-		<?php include "navbar.html" ?>
 		<h1>Contact</h1>
 	</div>
+    <?php include "navbar.html" ?>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
