@@ -8,8 +8,8 @@
 	<meta name="author" content="Joseph Farrell">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<?php include "assets/css/stylesheet.css" ?>
+
+    <?php include "assets/media.html" ?>
 </head>
 <body>
 	<div id="content">
