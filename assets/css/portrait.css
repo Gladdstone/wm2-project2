@@ -30,39 +30,6 @@ h1 {
     margin-right: auto;
 }
 
-#mobilemenu {
-    display: none;
-}
-
-#mobile_menu_button {
-    display: none;
-}
-
-#navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-#navbar li {
-    float: right;
-}
-
-#navbar li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#navbar li a:hover {
-    background-color: #111;
-    color: #ffffff;
-}
-
 .auto_img {
     max-width: 100%;
     height: auto;
@@ -135,85 +102,81 @@ h1 {
     opacity: 1;
 }
 
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3) or
-(min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2){
 
-    #banner_img {
-        display: none;
-    }
 
-    #mobilemenu {
-        display: block;
-    }
-
-    #mobile_menu_button {
-        display: inline-block;
-        cursor: pointer;
-    }
-
-    #navbar {
-        display: none;
-    }
-
-    #bar1, #bar2, #bar3 {
-        width: 35px;
-        height: 5px;
-        background-color: #333;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
-
-    .change #bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-        transform: rotate(-45deg) translate(-9px, 6px) ;
-    }
-
-    .change #bar2 {
-        opacity: 0;
-    }
-
-    .change #bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-        transform: rotate(45deg) translate(-8px, -8px) ;
-    }
-
-    .mobilenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        padding-top: 60px;
-        transition: 0.5s;
-    }
-
-    .mobilenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s
-    }
-
-    .mobilenav a:hover, .offcanvas a:focus{
-        color: #f1f1f1;
-    }
-
-    .mobilenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-
+/**
+Mobile CSS
+ */
+#banner_img {
+    display: none;
 }
+
+#mobilemenu {
+    display: block;
+}
+
+#mobile_menu_button {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#navbar {
+    display: none;
+}
+
+#bar1, #bar2, #bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change #bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change #bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.mobilenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.mobilenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.mobilenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.mobilenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
