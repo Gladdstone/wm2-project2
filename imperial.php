@@ -16,7 +16,7 @@
 		<?php include "assets/navbar.html" ?>
 		<h1>Imperial</h1>
 		<h4>Largest City: <i>El Centro</i></h4>
-		<hr>
+		<hr/>
 		<br/><br/>
         <div id="feature_image">
             <figure>
