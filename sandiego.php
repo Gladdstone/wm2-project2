@@ -18,18 +18,18 @@
 		<h4>Largest City: <i>San Diego</i></h4>
 		<hr>
 		<br/><br/>
-		<div class="col2 fltlft pdrt">
+        <div id="feature_image">
+            <figure>
+                <img src="assets/images/hotelcoronado.png">
+                <figurecaption>Hotel Coronado</figurecaption>
+            </figure>
+        </div>
+		<div id="feature_text">
 			<h4>Reasons To Visit</h4>
 			<hr>
 			<p>San Diego is the second most populous county in California. The area features 16 military outposts for the US Marine Corps, Navy, and coast Guard.</p>
 			<p>A large portion of San Diego's income comes from the tourism industry. The area features a large number of possibilities from shopping, to sight-seeing, as well as being home to the second largest cruise ship industry in California.</p>
 			<p>In terms of tourist attractions, San Diego is full to bursting with a number of possible tourist locations, including Legoland California, San Diego's historic Gaslamp Quarter, and the world-reknowned San Diego Zoo.</p>
-		</div>
-		<div class="col2 fltrt pdlft">
-			<figure>
-				<img src="assets/images/hotelcoronado.png">
-				<figurecaption>Hotel Coronado</figurecaption>
-			</figure>
 		</div>
 	</div>
     <?php include "assets/footer.html" ?>

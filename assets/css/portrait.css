@@ -30,6 +30,18 @@ h1 {
     margin-right: auto;
 }
 
+#feature_image {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#feature_text {
+    width: 70%;
+    float: left;
+}
+
 .auto_img {
     max-width: 100%;
     height: auto;

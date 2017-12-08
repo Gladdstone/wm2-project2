@@ -18,17 +18,17 @@
 		<h4>Largest City: <i>Riverside</i></h4>
 		<hr>
 		<br/><br/>
-		<div class="col2 fltlft pdrt">
+        <div id="feature_image">
+            <figure>
+                <img src="assets/images/palmsprings.png">
+                <figurecaption>Downtown Palm Springs, source: <i><a href="https://en.wikipedia.org/wiki/Riverside_County,_California">Wikipedia</a></i></figurecaption>
+            </figure>
+        </div>
+		<div id="feature_text">
 			<h4>Reasons To Visit</h4>
 			<hr>
 			<p>Riverside County is the fourth-most populous county in California. The area is predominantly desert, and home to a number of so-called "resort cities" such as Palm Springs, Indian Wells, and La Quinta, all of which are located in the area referred to as Coachella Vallet.</p>
 			<p>Riverside is also one of the fastest growing regions in the state, as more of the population moves towards the more affordable housing available in this area, and nighboring county San Bernardino.</p>
-		</div>
-		<div class="col2 fltrt pdlft">
-			<figure>
-				<img src="assets/images/palmsprings.png">
-				<figurecaption>Downtown Palm Springs, source: <i><a href="https://en.wikipedia.org/wiki/Riverside_County,_California">Wikipedia</a></i></figurecaption>
-			</figure>
 		</div>
 	</div>
     <?php include "assets/footer.html" ?>

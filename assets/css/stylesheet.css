@@ -30,6 +30,18 @@ h1 {
 	margin-right: auto;
 }
 
+#feature_image {
+	width: 40%;
+	float: right;
+	padding-left: 10%;
+}
+
+#feature_text {
+	width: 40%;
+	float: left;
+	padding-right: 10%;
+}
+
 #mobilemenu {
 	display: none;
 }

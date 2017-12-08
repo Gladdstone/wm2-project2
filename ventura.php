@@ -19,15 +19,15 @@
 		<h4>Largest City: <i>Oxnard</i></h4>
 		<hr>
 		<br/><br/>
-		<div class="col2 fltlft pdrt">
+        <div id="feature_image">
+            <figure>
+            </figure>
+        </div>
+		<div id="feature_text">
 			<h4>Reasons To Visit</h4>
 			<hr>
 			<p>Ventura County is generally separated into two major sections, East and West County. The East County is at a significantly greater elevation than the rest of the county, and includes Thousand Oaks, Santa Rosa Valley, Lake Sherwood, and Newbury Park, among other areas.</p>
 			<p>The West County primarily consists of beach communities, and as such sees a greater rate of tourism than the East County.</p>
-		</div>
-		<div class="col2 fltrt pdlft">
-			<figure>
-			</figure>
 		</div>
 	</div>
     <?php include "assets/footer.html" ?>

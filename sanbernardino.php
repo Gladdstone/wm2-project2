@@ -18,17 +18,17 @@
 		<h4>Largest City: <i>San Bernardino</i></h4>
 		<hr>
 		<br/><br/>
-		<div class="col2 fltlft pdrt">
+        <div id="feature_image">
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Calico_view_from_lookout_point.jpg/320px-Calico_view_from_lookout_point.jpg">
+                <figurecaption>Calico Ghost Town, source: <i><a href="https://en.wikipedia.org/wiki/San_Bernardino_County,_California">Wikipedia</a></i></figurecaption>
+            </figure>
+        </div>
+		<div id="feature_text">
 			<h4>Reasons To Visit</h4>
 			<hr>
 			<p>By area, San Bernardino County is the largest county in the United States. It is, in fact larger than the countries nine smallest states, and larger than seventy sovereign nations.</p>
 			<p>San Bernardino County is home to a number of National Parks and other protected areas, including Death Valley National Park, Mojave National Preserve, and Joshua Tree National Park. The county is also home to Calico, a ghost town declared by then-Governor Arnold Schwarzenegger to be California's Silver Rush Town.</p>
-		</div>
-		<div class="col2 fltrt pdlft">
-			<figure>
-				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Calico_view_from_lookout_point.jpg/320px-Calico_view_from_lookout_point.jpg">
-				<figurecaption>Calico Ghost Town, source: <i><a href="https://en.wikipedia.org/wiki/San_Bernardino_County,_California">Wikipedia</a></i></figurecaption>
-			</figure>
 		</div>
 	</div>
     <?php include "assets/footer.html" ?>
