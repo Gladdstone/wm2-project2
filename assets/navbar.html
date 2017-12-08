@@ -6,9 +6,9 @@
 <div id="mobilemenu" class="mobilenav">
     <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></li>
     <li>><a href="index.php">Home</a></li>
-    <div onclick="dropdownMobile();">
-        <li><a href="">Counties</a>
-            <div class="mobile_dropdown">
+    <div>
+        <li><a onclick="toggleCounty();">Counties <span id="county_arrow">&#x25B2;</span></a>
+            <div id="mobile_county" class="mobile_county">
                 <a href="imperial.php">Imperial</a>
                 <a href="la.php">Los Angeles</a>
                 <a href="orange.php">Orange</a>
@@ -20,7 +20,15 @@
             </div>
         </li>
     </div>
-    <li><a href="">Points of Interest</a></li>
+    <div>
+        <li><a onclick="togglePoints();">Points of Interest <span id="points_arrow">&#x25B2;</span></a>
+            <div id="mobile_points" class="mobile_points">
+                <a href="">Location 1</a>
+                <a href="">Location 2</a>
+                <a href="">Location 3</a>
+            </div>
+        </li>
+    </div>
     <li><a href="map.php">Map</a></li>
 </div>
 
