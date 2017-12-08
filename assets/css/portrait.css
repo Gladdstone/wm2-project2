@@ -180,3 +180,6 @@ Mobile CSS
     margin-left: 50px;
 }
 
+.mobile_dropdown {
+    display: none;
+}
