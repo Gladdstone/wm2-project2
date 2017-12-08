@@ -48,7 +48,7 @@ function setYear() {
 
 function toggleCounty() {
 	if(countyClosed) {
-        document.getElementById("mobile_county").style.height = "350px";
+        document.getElementById("mobile_county").style.height = "380px";
         document.getElementById("county_arrow").innerHTML = "&#x25BC;";
         countyClosed = false;
     }
@@ -61,7 +61,7 @@ function toggleCounty() {
 
 function togglePoints() {
 	if(pointsClosed) {
-		document.getElementById("mobile_points").style.height = "250px";
+		document.getElementById("mobile_points").style.height = "150px";
         document.getElementById("points_arrow").innerHTML = "&#x25BC;";
 		pointsClosed = false;
 	}
