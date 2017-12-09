@@ -15,8 +15,9 @@
 	<div id="content">
 		<?php include "assets/navbar.html" ?>
 		<br/><br/>
-		<h1>Southern California - Map</h1>
-		</hr>
+		<h1>Southern California</h1>
+		<hr>
+		<h3>Map</h3>
 		<br/><br/>
 		<div id="map">
 			<iframe

@@ -10,6 +10,8 @@
 var countyClosed = true,
 	pointsClosed = true;
 
+setYear();
+
 
 function closeNav() {
     // Clean up open dropdowns
@@ -38,11 +40,10 @@ function openNav() {
 }
 
 function setYear() {
-    alert("test");
-    var today = new Date();
-    var year = today.getFullYear();
+    var today = new Date(),
+	year = today.getFullYear(),
+    	text = document.getElementById("copyright").innerText;
 
-    var text = document.getElementById("copyright").innerHTML;
     document.getElementById("copyright").innerText = text + " " + year;
 }
 
