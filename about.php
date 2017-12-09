@@ -25,6 +25,7 @@
             <li>Mobile optimization for individual county pages</li>
             <li>Media queries moved to a separate file included by server</li>
             <li>Custom CSS file for use on matching media query</li>
+            <li>Functioning Google Maps embed</li>
         </ul>
     </div>
 </div>
