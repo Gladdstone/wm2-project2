@@ -42,6 +42,12 @@ h1 {
 	padding-right: 10%;
 }
 
+#map {
+	padding-top: 5%;
+	margin: auto;
+	text-align: center;
+}
+
 #mobilemenu {
 	display: none;
 }
