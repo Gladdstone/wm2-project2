@@ -1,7 +1,8 @@
 /**
- * File:
- * Author:
+ * File: scripts.js
+ * Author: Joseph Farrell
  * Description:
+ *      Client-side JavaScript
  */
 
 /**
@@ -10,9 +11,11 @@
 var countyClosed = true,
 	pointsClosed = true;
 
+// On page load
 setYear();
 
 
+// Close mobile navigation
 function closeNav() {
     // Clean up open dropdowns
     document.getElementById("mobile_county").style.height = "0";
@@ -22,23 +25,33 @@ function closeNav() {
     document.getElementById("mobilemenu").style.width = "0";
 }
 
+
+// Dropdown toggle
 function dropdownInterest() {
 	document.getElementById("dropdown_interest").classList.toggle("show");
 }
 
+
+// Dropdown toggle
 function dropdownRegions() {
 	document.getElementById("dropdown_regions").classList.toggle("show");
 }
 
+
+// Open menu
 function openMenu(elem) {
     elem.classList.toggle("change");
     openNav()
 }
 
+
+// Open mobile navigation
 function openNav() {
     document.getElementById("mobilemenu").style.width = "280px";
 }
 
+
+// Set year in copyright footer
 function setYear() {
     var today = new Date(),
 	year = today.getFullYear(),
@@ -47,6 +60,8 @@ function setYear() {
     document.getElementById("copyright").innerText = text + " " + year;
 }
 
+
+// Toggle county dropdown in mobile
 function toggleCounty() {
 	if(countyClosed) {
         document.getElementById("mobile_county").style.height = "380px";
@@ -60,6 +75,7 @@ function toggleCounty() {
 	}
 }
 
+// Toggle points dropdown in mobile
 function togglePoints() {
 	if(pointsClosed) {
 		document.getElementById("mobile_points").style.height = "150px";
